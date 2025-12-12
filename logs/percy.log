@@ -1,0 +1,6 @@
+[90m2025-12-12T07:12:04.669Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Starting percy
+[90m2025-12-12T07:12:06.087Z[39m [31mERROR[39m [97m@wdio/browserstack-service[39m Unable to fetch percy project token
+[90m2025-12-12T07:12:06.089Z[39m [32mDEBUG[39m [97m@wdio/browserstack-service[39m Error in percy setup Error: Could not start percy, check percy logs for info.
+    at BrowserstackLauncherService.setupPercy (file:///Users/maheshpatil/Documents/Android_WD_IO/node_modules/@wdio/browserstack-service/build/index.js:9351:15)
+    at process.processTicksAndRejections (node:internal/process/task_queues:105:5)
+    at async BrowserstackLauncherService.onPrepare (file:///Users/maheshpatil/Documents/Android_WD_IO/node_modules/@wdio/browserstack-service/build/index.js:9218:9)

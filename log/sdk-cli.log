@@ -1,0 +1,289 @@
+2025-12-11T11:54:13.257Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Samsung Galaxy S22 Ultra","platformVersion":"12.0","platformName":"android","wdioService":"9.20.1"},{"deviceName":"Google Pixel 7 Pro","platformVersion":"13.0","platformName":"android","wdioService":"9.20.1"},{"deviceName":"OnePlus 9","platformVersion":"11.0","platformName":"android","wdioService":"9.20.1"}],"isNonBstackA11yWDIO":false,"app":"bs://77b6d861e58b4c25c3583cf9548383dbab3ee9fa","browserstackLocal":true,"accessibility":false,"testObservabilityOptions":{"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":"Any build tag goes here. For e.g. [\"Tag1\",\"Tag2\"]"},"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":"Any build tag goes here. For e.g. [\"Tag1\",\"Tag2\"]"}
+2025-12-11T11:54:13.280Z CLI info     Should start debug utility: undefined
+2025-12-11T11:54:13.282Z CLI info [testhub:module]  [mahesh487]   [72975c50-999d-4ad4-bd50-89d437856f7c]  Starting testhub from 1593:0
+2025-12-11T11:54:13.284Z CLI info  [mahesh487]   [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-11T11:54:14.614Z CLI info [testhub:module]  [mahesh487]   [72975c50-999d-4ad4-bd50-89d437856f7c]  startBuild: response=os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos
+2025-12-11T11:54:14.619Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-11T11:54:15.051Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-11T11:54:15.441Z CLI error  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  error invoking callback for eventName: {}
+2025-12-11T11:54:15.442Z CLI error  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-12-11T11:54:28.173Z CLI info [appautomate:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Using app: bs://77b6d861e58b4c25c3583cf9548383dbab3ee9fa
+2025-12-11T11:54:54.832Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-12-11T11:54:55.021Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-12-11T11:54:55.174Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-12-11T11:54:55.337Z CLI info [sdk:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Driver initialized as primary driver: platformIndex=0
+2025-12-11T11:54:55.362Z CLI info [sdk:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Driver initialized as primary driver: platformIndex=1
+2025-12-11T11:54:55.379Z CLI info [sdk:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Driver initialized as primary driver: platformIndex=2
+2025-12-11T11:54:55.860Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-12-11T11:55:18.863Z CLI info [testhub:request-queue-handler]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '9b3ddfaf-cb42-4c1c-89fc-566f969d25e2',
+    integrations: { browserstack: [Object] }
+  }
+} to 1593:0
+2025-12-11T11:55:18.866Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-11T11:55:20.653Z CLI info [testhub:request-queue-handler]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '9b3ddfaf-cb42-4c1c-89fc-566f969d25e2',
+      integrations: [Object]
+    }
+  }
+] to 1593:0
+2025-12-11T11:55:20.654Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-11T11:55:28.882Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"9b3ddfaf-cb42-4c1c-89fc-566f969d25e2","test_result":"failed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_name":"should swipe up on home screen and open Phone app","test_code":"async () => {\n        // wait for emulator to be ready\n        await browser.pause(2000);\n\n        // get screen size\n        const { height, width } = await driver.getWindowRect();\n\n        // define swipe start and end points\n        const startX = width / 2;\n        const startY = height * 0.9;   // near bottom\n        const endY   = height * 0.3;   // near top\n\n        // perform swipe gesture\n        await driver.performActions([{\n            type: 'pointer',\n            id: 'finger1',\n            parameters: { pointerType: 'touch' },\n            actions: [\n                { type: 'pointerMove', duration: 0, x: startX, y: startY },\n                { type: 'pointerDown', button: 0 },\n                { type: 'pause', duration: 100 },\n                { type: 'pointerMove', duration: 500, x: startX, y: endY },\n                { type: 'pointerUp', button: 0 }\n            ]\n        }]);\n\n        // give UI time to show the app drawer\n        await browser.pause(2000);\n\n        // tap on the Phone icon in the app drawer\n        // Use accessibility id or text — this usually works on Android 11 emulators:\n        const ApiDemo = await $('//android.widget.TextView[@content-desc=\"API Demos\"]');\n\n        await ApiDemo.waitForDisplayed({ timeout: 10000 });\n        await ApiDemo.click();\n            \n        await $('.//android.widget.TextView[@content-desc=\"Views\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"Gallery\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"1. Photos\"]').click();\n        await $('android=new UiScrollable(new UiSelector().scrollable(true)).setAsHorizontalList().scrollForward(5)')\n      \n\n        \n            \n\n\n        \n    \n    }","test_location":"test/specs/Horizontalscroll.js","test_scope":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_scopes":["Swipe and open Phone app"],"test_started_at":"2025-12-11T11:55:18.846Z","automate_session_name":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_failure":[{"backtrace":["Timeout","Error: Timeout\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"]}],"test_failure_reason":"Timeout","test_failure_type":"UnhandledError","test_ended_at":"2025-12-11T11:55:28.872Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"failed","automate_session_reason":"Timeout","test_deferred":true,"logs":[]}
+2025-12-11T11:55:28.884Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-11T11:55:29.041Z CLI info [testhub:request-queue-handler]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '9a77b1d2-45cd-4634-9003-a2e94c596340',
+    integrations: { browserstack: [Object] }
+  }
+} to 1593:0
+2025-12-11T11:55:29.042Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-11T11:55:30.662Z CLI info [testhub:request-queue-handler]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '9a77b1d2-45cd-4634-9003-a2e94c596340',
+      integrations: [Object]
+    }
+  }
+] to 1593:0
+2025-12-11T11:55:30.663Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-11T11:55:33.559Z CLI info [testhub:request-queue-handler]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'b862cf1e-faa2-47dc-8ae5-ca2e3f16f69e',
+    integrations: { browserstack: [Object] }
+  }
+} to 1593:0
+2025-12-11T11:55:33.561Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-11T11:55:34.665Z CLI info [testhub:request-queue-handler]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'b862cf1e-faa2-47dc-8ae5-ca2e3f16f69e',
+      integrations: [Object]
+    }
+  }
+] to 1593:0
+2025-12-11T11:55:34.668Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-11T11:55:39.090Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"9a77b1d2-45cd-4634-9003-a2e94c596340","test_result":"failed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_name":"should swipe up on home screen and open Phone app","test_code":"async () => {\n        // wait for emulator to be ready\n        await browser.pause(2000);\n\n        // get screen size\n        const { height, width } = await driver.getWindowRect();\n\n        // define swipe start and end points\n        const startX = width / 2;\n        const startY = height * 0.9;   // near bottom\n        const endY   = height * 0.3;   // near top\n\n        // perform swipe gesture\n        await driver.performActions([{\n            type: 'pointer',\n            id: 'finger1',\n            parameters: { pointerType: 'touch' },\n            actions: [\n                { type: 'pointerMove', duration: 0, x: startX, y: startY },\n                { type: 'pointerDown', button: 0 },\n                { type: 'pause', duration: 100 },\n                { type: 'pointerMove', duration: 500, x: startX, y: endY },\n                { type: 'pointerUp', button: 0 }\n            ]\n        }]);\n\n        // give UI time to show the app drawer\n        await browser.pause(2000);\n\n        // tap on the Phone icon in the app drawer\n        // Use accessibility id or text — this usually works on Android 11 emulators:\n        const ApiDemo = await $('//android.widget.TextView[@content-desc=\"API Demos\"]');\n\n        await ApiDemo.waitForDisplayed({ timeout: 10000 });\n        await ApiDemo.click();\n            \n        await $('.//android.widget.TextView[@content-desc=\"Views\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"Gallery\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"1. Photos\"]').click();\n        await $('android=new UiScrollable(new UiSelector().scrollable(true)).setAsHorizontalList().scrollForward(5)')\n      \n\n        \n            \n\n\n        \n    \n    }","test_location":"test/specs/Horizontalscroll.js","test_scope":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_scopes":["Swipe and open Phone app"],"test_started_at":"2025-12-11T11:55:29.026Z","automate_session_name":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_failure":[{"backtrace":["Timeout","Error: Timeout\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"]}],"test_failure_reason":"Timeout","test_failure_type":"UnhandledError","test_ended_at":"2025-12-11T11:55:39.061Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"failed","automate_session_reason":"Timeout","test_deferred":true,"logs":[]}
+2025-12-11T11:55:39.092Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-11T11:55:43.702Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"b862cf1e-faa2-47dc-8ae5-ca2e3f16f69e","test_result":"failed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_name":"should swipe up on home screen and open Phone app","test_code":"async () => {\n        // wait for emulator to be ready\n        await browser.pause(2000);\n\n        // get screen size\n        const { height, width } = await driver.getWindowRect();\n\n        // define swipe start and end points\n        const startX = width / 2;\n        const startY = height * 0.9;   // near bottom\n        const endY   = height * 0.3;   // near top\n\n        // perform swipe gesture\n        await driver.performActions([{\n            type: 'pointer',\n            id: 'finger1',\n            parameters: { pointerType: 'touch' },\n            actions: [\n                { type: 'pointerMove', duration: 0, x: startX, y: startY },\n                { type: 'pointerDown', button: 0 },\n                { type: 'pause', duration: 100 },\n                { type: 'pointerMove', duration: 500, x: startX, y: endY },\n                { type: 'pointerUp', button: 0 }\n            ]\n        }]);\n\n        // give UI time to show the app drawer\n        await browser.pause(2000);\n\n        // tap on the Phone icon in the app drawer\n        // Use accessibility id or text — this usually works on Android 11 emulators:\n        const ApiDemo = await $('//android.widget.TextView[@content-desc=\"API Demos\"]');\n\n        await ApiDemo.waitForDisplayed({ timeout: 10000 });\n        await ApiDemo.click();\n            \n        await $('.//android.widget.TextView[@content-desc=\"Views\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"Gallery\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"1. Photos\"]').click();\n        await $('android=new UiScrollable(new UiSelector().scrollable(true)).setAsHorizontalList().scrollForward(5)')\n      \n\n        \n            \n\n\n        \n    \n    }","test_location":"test/specs/Horizontalscroll.js","test_scope":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_scopes":["Swipe and open Phone app"],"test_started_at":"2025-12-11T11:55:33.534Z","automate_session_name":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_failure":[{"backtrace":["Timeout","Error: Timeout\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"]}],"test_failure_reason":"Timeout","test_failure_type":"UnhandledError","test_ended_at":"2025-12-11T11:55:43.655Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"failed","automate_session_reason":"Timeout","test_deferred":true,"logs":[]}
+2025-12-11T11:55:43.703Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-11T11:55:48.891Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-11T11:55:49.568Z CLI info [testhub:module]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  stopBuild: os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos request={"finished_at":"2025-12-11T11:55:48.890Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-12-11T11:55:49.570Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-11T11:55:49.573Z CLI info [TEST REPORTING AND ANALYTICS:module]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Visit https://automation.browserstack.com/builds/os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos to view build report, insights, and many more debugging information all at one place!
+2025-12-11T11:55:52.200Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-11T11:55:52.587Z CLI info  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-12-11T11:55:53.471Z CLI info [main]  [mahesh487]  [os9dspx66o7utblo09brobb3lrwksbb2o3tuvcos]  [72975c50-999d-4ad4-bd50-89d437856f7c]  Received graceful signal termination, performing cleanup
+2025-12-12T07:11:57.580Z CLI info     Config : {"userName":"[REDACTED]","accessKey":"[REDACTED]","platforms":[{"deviceName":"Samsung Galaxy S22 Ultra","platformVersion":"12.0","platformName":"android","wdioService":"9.20.1"},{"deviceName":"Google Pixel 7 Pro","platformVersion":"13.0","platformName":"android","wdioService":"9.20.1"},{"deviceName":"OnePlus 9","platformVersion":"11.0","platformName":"android","wdioService":"9.20.1"}],"isNonBstackA11yWDIO":false,"app":"bs://77b6d861e58b4c25c3583cf9548383dbab3ee9fa","browserstackLocal":true,"accessibility":false,"testObservabilityOptions":{"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":"Any build tag goes here. For e.g. [\"Tag1\",\"Tag2\"]"},"testObservability":true,"testContextOptions":{"skipSessionName":false,"skipSessionStatus":false,"sessionNameOmitTestTitle":false,"sessionNamePrependTopLevelSuiteTitle":false,"sessionNameFormat":""},"buildName":"bstack-demo","projectName":"BrowserStack Sample","buildTag":"Any build tag goes here. For e.g. [\"Tag1\",\"Tag2\"]"}
+2025-12-12T07:11:57.619Z CLI info     Should start debug utility: undefined
+2025-12-12T07:11:57.620Z CLI info [testhub:module]  [mahesh487]   [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Starting testhub from 2163:0
+2025-12-12T07:11:57.621Z CLI info  [mahesh487]   [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making POST request to https://sdk.browserstack.com
+2025-12-12T07:11:58.836Z CLI info [testhub:module]  [mahesh487]   [16f447aa-31d7-4c34-8f7c-5d225aac5034]  startBuild: response=oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8
+2025-12-12T07:11:58.840Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-12T07:11:59.235Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-12T07:12:00.255Z CLI error  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  error invoking callback for eventName: {}
+2025-12-12T07:12:00.256Z CLI error  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Error: invalid percyToken=null
+    at /snapshot/browserstack-binary/cli/dist/index.js
+    at process.processTicksAndRejections (node:internal/process/task_queues:95:5)
+2025-12-12T07:12:04.637Z CLI info [appautomate:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Using app: bs://77b6d861e58b4c25c3583cf9548383dbab3ee9fa
+2025-12-12T07:12:10.070Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making GET request to https://hub.browserstack.com
+2025-12-12T07:12:10.215Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making GET request to https://hub-aps.browserstack.com
+2025-12-12T07:12:10.338Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making GET request to https://hub-euw.browserstack.com
+2025-12-12T07:12:10.401Z CLI info [sdk:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Driver initialized as primary driver: platformIndex=2
+2025-12-12T07:12:10.407Z CLI info [sdk:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Driver initialized as primary driver: platformIndex=1
+2025-12-12T07:12:10.410Z CLI info [sdk:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Driver initialized as primary driver: platformIndex=0
+2025-12-12T07:12:10.922Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making GET request to https://hub-apse.browserstack.com
+2025-12-12T07:12:30.018Z CLI info [testhub:request-queue-handler]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'fd59508a-04a6-400b-8218-28fa2dd9d5e8',
+    integrations: { browserstack: [Object] }
+  }
+} to 2163:0
+2025-12-12T07:12:30.021Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-12T07:12:30.852Z CLI info [testhub:request-queue-handler]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'fd59508a-04a6-400b-8218-28fa2dd9d5e8',
+      integrations: [Object]
+    }
+  }
+] to 2163:0
+2025-12-12T07:12:30.854Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-12T07:12:40.031Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"fd59508a-04a6-400b-8218-28fa2dd9d5e8","test_result":"failed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_name":"should swipe up on home screen and open Phone app","test_code":"async () => {\n        // wait for emulator to be ready\n        await browser.pause(2000);\n\n        // get screen size\n        const { height, width } = await driver.getWindowRect();\n\n        // define swipe start and end points\n        const startX = width / 2;\n        const startY = height * 0.9;   // near bottom\n        const endY   = height * 0.3;   // near top\n\n        // perform swipe gesture\n        await driver.performActions([{\n            type: 'pointer',\n            id: 'finger1',\n            parameters: { pointerType: 'touch' },\n            actions: [\n                { type: 'pointerMove', duration: 0, x: startX, y: startY },\n                { type: 'pointerDown', button: 0 },\n                { type: 'pause', duration: 100 },\n                { type: 'pointerMove', duration: 500, x: startX, y: endY },\n                { type: 'pointerUp', button: 0 }\n            ]\n        }]);\n\n        // give UI time to show the app drawer\n        await browser.pause(2000);\n\n        // tap on the Phone icon in the app drawer\n        // Use accessibility id or text — this usually works on Android 11 emulators:\n        const ApiDemo = await $('//android.widget.TextView[@content-desc=\"API Demos\"]');\n\n        await ApiDemo.waitForDisplayed({ timeout: 10000 });\n        await ApiDemo.click();\n            \n        await $('.//android.widget.TextView[@content-desc=\"Views\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"Gallery\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"1. Photos\"]').click();\n        await $('android=new UiScrollable(new UiSelector().scrollable(true)).setAsHorizontalList().scrollForward(5)')\n      \n\n        \n            \n\n\n        \n    \n    }","test_location":"test/specs/Horizontalscroll.js","test_scope":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_scopes":["Swipe and open Phone app"],"test_started_at":"2025-12-12T07:12:29.931Z","automate_session_name":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_failure":[{"backtrace":["Timeout","Error: Timeout\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"]}],"test_failure_reason":"Timeout","test_failure_type":"UnhandledError","test_ended_at":"2025-12-12T07:12:40.021Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"failed","automate_session_reason":"Timeout","test_deferred":true,"logs":[]}
+2025-12-12T07:12:40.032Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-12T07:12:43.658Z CLI info [testhub:request-queue-handler]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: 'f35de176-aed1-4571-912a-b2ecc553214d',
+    integrations: { browserstack: [Object] }
+  }
+} to 2163:0
+2025-12-12T07:12:43.659Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-12T07:12:44.291Z CLI info [testhub:request-queue-handler]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Added the event {
+  event_type: 'CBTSessionCreated',
+  test_run: {
+    uuid: '62d458fe-a764-498c-8f21-fd34e9ba6065',
+    integrations: { browserstack: [Object] }
+  }
+} to 2163:0
+2025-12-12T07:12:44.292Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunStarted (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-12T07:12:44.903Z CLI info [testhub:request-queue-handler]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Processing batch event [
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: 'f35de176-aed1-4571-912a-b2ecc553214d',
+      integrations: [Object]
+    }
+  },
+  {
+    event_type: 'CBTSessionCreated',
+    test_run: {
+      uuid: '62d458fe-a764-498c-8f21-fd34e9ba6065',
+      integrations: [Object]
+    }
+  }
+] to 2163:0
+2025-12-12T07:12:44.905Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making POST request to https://collector-observability.browserstack.com
+2025-12-12T07:12:53.842Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"f35de176-aed1-4571-912a-b2ecc553214d","test_result":"failed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_name":"should swipe up on home screen and open Phone app","test_code":"async () => {\n        // wait for emulator to be ready\n        await browser.pause(2000);\n\n        // get screen size\n        const { height, width } = await driver.getWindowRect();\n\n        // define swipe start and end points\n        const startX = width / 2;\n        const startY = height * 0.9;   // near bottom\n        const endY   = height * 0.3;   // near top\n\n        // perform swipe gesture\n        await driver.performActions([{\n            type: 'pointer',\n            id: 'finger1',\n            parameters: { pointerType: 'touch' },\n            actions: [\n                { type: 'pointerMove', duration: 0, x: startX, y: startY },\n                { type: 'pointerDown', button: 0 },\n                { type: 'pause', duration: 100 },\n                { type: 'pointerMove', duration: 500, x: startX, y: endY },\n                { type: 'pointerUp', button: 0 }\n            ]\n        }]);\n\n        // give UI time to show the app drawer\n        await browser.pause(2000);\n\n        // tap on the Phone icon in the app drawer\n        // Use accessibility id or text — this usually works on Android 11 emulators:\n        const ApiDemo = await $('//android.widget.TextView[@content-desc=\"API Demos\"]');\n\n        await ApiDemo.waitForDisplayed({ timeout: 10000 });\n        await ApiDemo.click();\n            \n        await $('.//android.widget.TextView[@content-desc=\"Views\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"Gallery\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"1. Photos\"]').click();\n        await $('android=new UiScrollable(new UiSelector().scrollable(true)).setAsHorizontalList().scrollForward(5)')\n      \n\n        \n            \n\n\n        \n    \n    }","test_location":"test/specs/Horizontalscroll.js","test_scope":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_scopes":["Swipe and open Phone app"],"test_started_at":"2025-12-12T07:12:43.646Z","automate_session_name":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_failure":[{"backtrace":["Timeout","Error: Timeout\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"]}],"test_failure_reason":"Timeout","test_failure_type":"UnhandledError","test_ended_at":"2025-12-12T07:12:53.812Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"failed","automate_session_reason":"Timeout","test_deferred":true,"logs":[]}
+2025-12-12T07:12:53.896Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-12T07:12:54.348Z CLI warn [TEST REPORTING AND ANALYTICS:webdriverio:mocha]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TestRunFinished: event={"test_framework_name":"WebdriverIO-mocha","test_framework_version":"9.20.1","test_logs":[],"test_hooks_finished":{},"test_hooks_started":{},"test_uuid":"62d458fe-a764-498c-8f21-fd34e9ba6065","test_result":"failed","test_hook_last_started":"TestFrameworkState.TEST","test_id":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_name":"should swipe up on home screen and open Phone app","test_code":"async () => {\n        // wait for emulator to be ready\n        await browser.pause(2000);\n\n        // get screen size\n        const { height, width } = await driver.getWindowRect();\n\n        // define swipe start and end points\n        const startX = width / 2;\n        const startY = height * 0.9;   // near bottom\n        const endY   = height * 0.3;   // near top\n\n        // perform swipe gesture\n        await driver.performActions([{\n            type: 'pointer',\n            id: 'finger1',\n            parameters: { pointerType: 'touch' },\n            actions: [\n                { type: 'pointerMove', duration: 0, x: startX, y: startY },\n                { type: 'pointerDown', button: 0 },\n                { type: 'pause', duration: 100 },\n                { type: 'pointerMove', duration: 500, x: startX, y: endY },\n                { type: 'pointerUp', button: 0 }\n            ]\n        }]);\n\n        // give UI time to show the app drawer\n        await browser.pause(2000);\n\n        // tap on the Phone icon in the app drawer\n        // Use accessibility id or text — this usually works on Android 11 emulators:\n        const ApiDemo = await $('//android.widget.TextView[@content-desc=\"API Demos\"]');\n\n        await ApiDemo.waitForDisplayed({ timeout: 10000 });\n        await ApiDemo.click();\n            \n        await $('.//android.widget.TextView[@content-desc=\"Views\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"Gallery\"]').click();\n        await $('.//android.widget.TextView[@content-desc=\"1. Photos\"]').click();\n        await $('android=new UiScrollable(new UiSelector().scrollable(true)).setAsHorizontalList().scrollForward(5)')\n      \n\n        \n            \n\n\n        \n    \n    }","test_location":"test/specs/Horizontalscroll.js","test_scope":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_scopes":["Swipe and open Phone app"],"test_started_at":"2025-12-12T07:12:44.280Z","automate_session_name":"Swipe and open Phone app - should swipe up on home screen and open Phone app","test_failure":[{"backtrace":["Timeout","Error: Timeout\n    at listOnTimeout (node:internal/timers:588:17)\n    at process.processTimers (node:internal/timers:523:7)"]}],"test_failure_reason":"Timeout","test_failure_type":"UnhandledError","test_ended_at":"2025-12-12T07:12:54.319Z","test_hook_last_finished":"TestFrameworkState.TEST","automate_session_status":"failed","automate_session_reason":"Timeout","test_deferred":true,"logs":[]}
+2025-12-12T07:12:54.351Z CLI error [TEST REPORTING AND ANALYTICS:service]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  TypeError [ERR_INVALID_ARG_TYPE]: The "to" argument must be of type string. Received undefined
+    at new NodeError (node:internal/errors:405:5)
+    at validateString (node:internal/validators:162:11)
+    at Object.relative (node:path:1191:5)
+    at MochaModule.makeFileDetails (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.sendTestEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at MochaModule.onTestRunFinished (/snapshot/browserstack-binary/cli/dist/index.js)
+    at _0x3c8e1b (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.runEventAction (/snapshot/browserstack-binary/cli/dist/index.js)
+    at WebdriverIOModule.onTestFrameworkEvent (/snapshot/browserstack-binary/cli/dist/index.js)
+    at ObservabilityModule.forwardRequest (/snapshot/browserstack-binary/cli/dist/index.js)
+2025-12-12T07:12:59.817Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making PUT request to https://collector-observability.browserstack.com
+2025-12-12T07:13:00.728Z CLI info [testhub:module]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  stopBuild: oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8 request={"finished_at":"2025-12-12T07:12:59.817Z","finished_metadata":[],"custom_metadata":null} response={"data":""}
+2025-12-12T07:13:00.730Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making POST request to https://api.browserstack.com
+2025-12-12T07:13:00.732Z CLI info [TEST REPORTING AND ANALYTICS:module]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Visit https://automation.browserstack.com/builds/oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8 to view build report, insights, and many more debugging information all at one place!
+2025-12-12T07:13:03.322Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making GET request to https://api.browserstack.com
+2025-12-12T07:13:03.738Z CLI info  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  [PRODUCTION] Making POST request to https://eds.browserstack.com
+2025-12-12T07:13:04.637Z CLI info [main]  [mahesh487]  [oueyd6mnuelzk3cgtmekwgy6ouxmtxtjmcmb4tp8]  [16f447aa-31d7-4c34-8f7c-5d225aac5034]  Received graceful signal termination, performing cleanup

@@ -1,0 +1,122 @@
+[
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 870.0571639984846,
+        "duration": 1333.2919499985874,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1593
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 2209.9903699979186,
+        "duration": 816.2963199988008,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 1593
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 3030.1641049981117,
+        "duration": 0.03485500067472458,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1593
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 3029.772076997906,
+        "duration": 12731.063266001642,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1593
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 42420.7641219981,
+        "duration": 347.6538610011339,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1593
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 99788.95256499946,
+        "duration": 389.4184799976647,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 1593
+    },
+    {
+        "name": "sdk:testhub",
+        "entryType": "measure",
+        "startTime": 490.9907269924879,
+        "duration": 1217.0441769957542,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2163
+    },
+    {
+        "name": "sdk:percy",
+        "entryType": "measure",
+        "startTime": 1714.7884249985218,
+        "duration": 1411.1234179884195,
+        "detail": null,
+        "success": false,
+        "failure": {},
+        "worker": 2163
+    },
+    {
+        "name": "sdk:proxy-setup",
+        "entryType": "measure",
+        "startTime": 3127.4385269880295,
+        "duration": 0.041700005531311035,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2163
+    },
+    {
+        "name": "sdk:automate:local",
+        "entryType": "measure",
+        "startTime": 3126.8507409989834,
+        "duration": 4380.795672997832,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2163
+    },
+    {
+        "name": "sdk:automate:hub-management",
+        "entryType": "measure",
+        "startTime": 12940.487199991941,
+        "duration": 273.9312659949064,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2163
+    },
+    {
+        "name": "sdk:automate:print-buildlink",
+        "entryType": "measure",
+        "startTime": 66193.96227298677,
+        "duration": 417.8540470004082,
+        "detail": null,
+        "success": true,
+        "failure": null,
+        "worker": 2163
+    }
+]
